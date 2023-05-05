@@ -1,6 +1,11 @@
-<script type="ts">
+<script lang="ts">
 
 import { SlideToggle } from '@skeletonlabs/skeleton';
+
+import type {FileInfo} from '@bexis2/bexis2-core-ui'
+import {Api} from '@bexis2/bexis2-core-ui'
+
+
 
 $:toggle = false;
 
@@ -12,3 +17,4 @@ $:toggle = false;
 <br/>
 
 <b>toggle : {toggle}</b>
+

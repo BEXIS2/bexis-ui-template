@@ -2,7 +2,6 @@
 import adapter from '@sveltejs/adapter-static';
 
 import { vitePreprocess } from '@sveltejs/kit/vite';
-import preprocess from 'svelte-preprocess';
 import { build } from 'vite';
 
 /** @type {import('@sveltejs/kit').Config} */
