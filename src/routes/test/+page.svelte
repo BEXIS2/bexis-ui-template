@@ -5,6 +5,10 @@ import { SlideToggle } from '@skeletonlabs/skeleton';
 import type {FileInfo} from '@bexis2/bexis2-core-ui'
 import {Api} from '@bexis2/bexis2-core-ui'
 import { setApiConfig }  from '@bexis2/bexis2-core-ui'
+import { Spinner }  from '@bexis2/bexis2-core-ui'
+
+import {FileIcon} from '@bexis2/bexis2-core-ui'
+
 
 import { onMount } from 'svelte'; 
 
@@ -32,3 +36,5 @@ $:toggle = false;
 
 <b>toggle : {toggle}</b>
 
+
+<Spinner/>

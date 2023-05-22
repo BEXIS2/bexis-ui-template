@@ -12,7 +12,8 @@
 		"test:unit": "vitest",
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
 		"format": "prettier --plugin-search-dir . --write .",
-		"postinstall": "patch-package"
+		"postinstall": "patch-package",
+		"install bexis2-core-ui localy": "npm install ../bexis2-core-ui"
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.28.1",
@@ -41,7 +42,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@bexis2/bexis2-core-ui": "^0.0.20",
+		"@bexis2/bexis2-core-ui": "file:../bexis2-core-ui",
 		"@sveltejs/adapter-static": "^2.0.1",
 		"patch-package": "^6.5.1",
 		"svelte-fa": "^3.0.3"

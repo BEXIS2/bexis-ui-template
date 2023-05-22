@@ -3,6 +3,7 @@
 	//import '@skeletonlabs/skeleton/themes/theme-skeleton.css';
 	// import '@bexis2/bexis2-core-ui/dist/css/themes/theme-bexis2.css';
 	import '../../node_modules/@bexis2/bexis2-core-ui/dist/css/themes/theme-bexis2.css';
+
 	// If you have source.organizeImports set to true in VSCode, then it will auto change this ordering
 	import '@skeletonlabs/skeleton/styles/all.css';
  // load generell skeleton changes for bexis2 

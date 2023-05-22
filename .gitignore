@@ -8,3 +8,6 @@ node_modules
 !.env.example
 vite.config.js.timestamp-*
 _app
+index.html
+test/index.html
+index.html
