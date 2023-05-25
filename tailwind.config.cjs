@@ -1,7 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
 	darkMode: 'class',
-	content: ['./src/**/*.{html,js,svelte,ts}', require('path').join(require.resolve('@skeletonlabs/skeleton'), '../**/*.{html,js,svelte,ts}', '.node_modules/@bexis2/bexis2-core-ui/**/*.{html,js,svelte,ts}')],
+	content: ['./src/**/*.{html,js,svelte,ts}', 
+	require('path').join(require.resolve('@skeletonlabs/skeleton'), '../**/*.{html,js,svelte,ts}'),
+	'.node_modules/@bexis/bexis2-core-ui/**/*.{html,js,svelte,ts}'],
 	theme: {
 		extend: {},
 	},
