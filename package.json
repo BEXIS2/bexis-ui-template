@@ -42,7 +42,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@bexis2/bexis2-core-ui": "file:../bexis2-core-ui",
+		"@bexis2/bexis2-core-ui": "latest",
 		"@sveltejs/adapter-static": "^2.0.1",
 		"patch-package": "^6.5.1",
 		"svelte-fa": "^3.0.3"
