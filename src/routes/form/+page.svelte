@@ -1,6 +1,6 @@
 <script lang="ts">
 
-import  {TextInput} from '@bexis2/bexis2-core-ui'
+import  {TextInput, Page} from '@bexis2/bexis2-core-ui'
 
 
 interface input {
@@ -25,9 +25,11 @@ let data:input = {
 
 </script>
 
+<Page title="Test Form Page"  note="here you can see if it works">
 
-<div class="p-5">
-  <TextInput  {...data}/>
-  <input type="text" class="input variant-form-material" />
+  <div >
+    <TextInput  {...data}/>
+  </div>
+  
 
-</div>
+</Page>
