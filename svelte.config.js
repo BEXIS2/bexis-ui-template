@@ -20,7 +20,14 @@ const config = {
 			preprocess:true,
 			strict:false
 		}
-		)
+		),
+		paths:{
+			base: process.env.NODE_ENV ==='production' ? '':'' // add module id here e.g. /dcm
+		},
+		alias: {
+			$models: './src/models',
+			$services: './src/services',
+	}
 
 	}
 };
