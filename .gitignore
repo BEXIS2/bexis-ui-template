@@ -11,3 +11,13 @@ _app
 index.html
 test/index.html
 index.html
+dist/favicon.png
+dist/index.html.br
+dist/index.html.gz
+dist/vite-manifest.json
+dist/vite-manifest.json.br
+dist/vite-manifest.json.gz
+dist/form/index.html.br
+dist/form/index.html.gz
+dist/test/index.html.br
+dist/test/index.html.gz

@@ -13,8 +13,8 @@ const config = {
 
 	kit: {
 		adapter: adapter({
-			pages:'', // ../BExIS.Modules.Dcm.UI/Scripts/svelte
-			assets:"",// ../BExIS.Modules.Dcm.UI/Scripts/svelte
+			pages:'dist', // ../BExIS.Modules.Dcm.UI/Scripts/svelte
+			assets:'dist',// ../BExIS.Modules.Dcm.UI/Scripts/svelte
 			fallback:null,
 			precompress:true,
 			preprocess:true,
